@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #website {
+            display: flex;
+            flex-direction:column;
+            justify-content: center;
+            align-items: center;
+            #nav_bar{
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                align-items: center;
+                gap: 700px;
+                padding: 30px 400px;
+                background-color: white;
+                border: 2px black;
+
+                #nav_menu {
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: center;
+                    align-items: center;
+                    gap: 40px;
+                    width: 300px;
+
+                }
+
+                #nav_text {
+                    color: gray;
+                    font-size: 20px;
+                }
+
+                #icons {
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: center;
+                    align-items: center;
+                    gap: 10px;
+
+                    #icon {
+                        height: 30px;
+                        width: 30px;
+                        border-radius: 50px;
+                    }
+                }
+            }
+
+            #main {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                gap: 50px;
+                border: 2px black solid;
+                height: 600px;
+                width: 100%;
+                background-image: url("https://themeforest.pixfort.com/landing/flatpack/1-normal/images/1_normal/home-bg.png");
+                #sub {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                    gap: 30px;
+                #first {
+                    text-align: center;
+                    color: purple;
+                    gap: 800px;
+                    font-weight: bold;
+                    font-size: 50px;
+                    color:white;
+                }
+                #second{
+                    font-size: 20px;
+                    width: 700px;
+                    text-align: center;
+                    color: white;
+                }
+                }
+                #bar{
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: center;
+                    align-items: center;
+                    border: 2px black solid;
+                    padding: 20px;
+                    gap: 10px;
+                    background-color: black;
+                    #subscribe{
+                        background-color:green;
+                        padding: 7px 40px;
+                    }
+                    }
+                    #email{
+                        padding: 7px 100px;
+                    }
+
+                }
+                #note{
+                    color: white;
+                }
+            }
+             #home{
+                display: flex;
+                flex-direction:row;
+                justify-content: center;
+                align-items: center;
+                gap: 30px;
+                padding: 40px; font-size: 25px;             
+                #home_bar{
+                display: flex;
+                flex-direction:row;
+                justify-content: center;
+                align-items: center;
+                gap: 30px;
+                width: 300px;
+                #icons{
+                    border: 2px skyblue solid;
+                    padding: 35px;
+                    border-radius: 50%;
+                }
+                }
+            }
+            #room{
+                display: flex;
+                flex-direction:row;
+                justify-content: center;
+                align-items: start;
+                font-size: 40px;
+                padding: 20px;
+                gap: 20px;
+                    #room1{
+                     display: flex;
+                     flex-direction:column;
+                     justify-content: center;
+                     align-items:start;
+                     font-size: 30px; 
+                     padding: 50px;
+                     gap: 30px;
+                     #door1{
+                        font-size: 60px;
+                     }
+                      #door2{
+                        font-size: 40px; color: rgba(27, 26, 26, 0.788);
+                     }
+                     #door3{
+                        width: 990px;
+                        color: rgba(76, 73, 73, 0.592);
+                        gap: 50px;
+                     }
+                    }
+            }
+            #sub_room{
+                display: flex;
+                flex-direction:row;
+                justify-content: center;
+                align-items: start;
+                padding: 150px;
+                gap: 90px;
+                #room2{
+                    display: flex;
+                    flex-direction:row;
+                    justify-content: center;
+                    align-items: start;
+                    padding: 40px;
+                }
+                #room2{
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: start;
+                    gap: 30px;
+                    padding: 60px;
+                    #door1{
+                        font-size: 55px;
+                    }
+                    #door2{
+                        font-size: 40px; color: rgba(27, 26, 26, 0.788);
+                   }
+                  #door3{
+                    color: rgba(76, 73, 73, 0.592);
+                    width: 900px;
+                    font-size: 30px;
+                   }
+                }
+            }
+            #sub_room2{
+                display: flex;
+                flex-direction:row;
+                justify-content: center;
+                align-items: start;
+                padding: 50px;
+                gap: 90px;
+                #room3{
+                    display: flex;
+                    flex-direction:column;
+                    justify-content: center;
+                    align-items: start;
+                    gap: 30px;
+                    padding: 60px;
+                    #door1{
+                        font-size: 55px;
+                    }
+                    #door2{ 
+                        font-size: 40px; color: rgba(27, 26, 26, 0.788);
+                    } 
+                    #door3{
+                        color: rgba(76, 73, 73, 0.592);
+                        width: 900px;
+                        font-size: 30px;
+                    }
+                }
+            }
+            #sub_room3{
+                display: flex;
+                flex-direction:column;
+                justify-content: center;
+                align-items: centert;
+                gap: 25px;
+                #room4{
+                    display: flex;
+                    flex-direction:column;
+                    justify-content: center;
+                    align-items: center;
+                    gap: 15px;
+                    #door1{
+                        display: flex;
+                        flex-direction:column;
+                        justify-content: center;
+                        align-items: center;
+                        font-size: 40px;
+                        width: 1000px;
+                    }
+                    #door2{
+                        font-size: 25px;
+                        color: rgba(32, 30, 30, 0.755);
+                    }
+                }
+                #room5{
+                    gap: 50px;
+                    width: 1600px;
+                    #icon{
+                        padding: 127px;
+                    }
+                }
+            }
+            #sub_room4{
+                        display: flex;
+                        flex-direction:column;
+                        justify-content: center;
+                        align-items: center;
+                        background-color: rgba(171, 158, 158, 0.3);
+                        width: 100%;
+                        gap: 20px;
+                        padding-bottom: 20px;
+                #room6{
+                        display: flex;
+                        flex-direction:column;
+                        justify-content: center;
+                        align-items: center;
+                        gap: 15px;
+                        #door1{
+                            font-size: 40px;
+                        }
+                        #door2{
+                            font-size: 25px;
+                            color: rgba(32, 30, 30, 0.755);
+                        }
+                }
+                 #room7{
+                        display: flex;
+                        flex-direction:row;
+                        justify-content: center;
+                        align-items: center;
+                        gap: 20px;
+                        background-color: white;
+                        #door{
+                            color: rgba(32, 30, 30, 0.755);
+                            #door1{
+                                width: 430px;
+                                font-size: 20px;
+                                padding: 15px;
+                                }
+                        }
+                        #small{
+                                display: flex;
+                                flex-direction:row;
+                                justify-content: center;
+                                align-items: start;
+                                width: 250px;
+                                color: skyblue;
+                                font-size: 20px;
+                        }
+                        #room8{
+                            display: flex;
+                            flex-direction:row;
+                            justify-content: center;
+                            align-items:center;
+                            gap: 20px;
+                            #mini_door{
+                                padding: 15px;
+                                color: rgba(32, 30, 30, 0.755);
+                            }
+                            #door1{
+                                width: 430px;
+                                font-size: 20px;
+                                padding: 15px;
+                               
+                                }
+                                #small1{
+                                display: flex;
+                                flex-direction:row;
+                                justify-content: center;
+                                align-items: start;
+                                color: skyblue;
+                                width: 250px;
+                                font-size: 20px;
+                            }
+                        }
+                    }
+        }
+    }
+ }
+ }
+        
+    </style>
+</head>
+<body>
+    <div id="website">
+        <div id="nav_bar">
+            <img src="https://pixfort.website/themeforest/landing/flatpack/1-normal/images/1_normal/logo.png" alt="">
+            <div id="nav_menu">
+                <div id="nav_text">stay connected </div>
+                <div id="icons">
+                    <img id="icon" src="https://freepnglogo.com/images/all_img/facebook-circle-logo-png.png" alt="">
+                    <img id="icon"
+                        src="https://img.freepik.com/premium-photo/twitter-logo-icon-illustration-vector_895118-5895.jpg"
+                        alt="">
+                    <img id="icon"
+                        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRiUfWj6uSDe9LyP839cfKnUjPjZh2XzO3R8w&s"
+                        alt="">
+                </div>
+            </div>
+        </div>
+        <div id="main">
+            <div id="sub">
+                <div id="first">HTML BUNDLE IS HERE</div>
+                <div id = "second">More than 10 unique HTML templates in one bundle isn't that awesome with a lot of features and great design brought to you by PixFort..
+      </div>
+      <div id = "bar">
+            <input id = "email" type = "text" placeholder="enter your email" />
+            <button id = "subscribe" type = "submit">SUBSCRIBE NOW</button>
+        </div>
+        <div id = "note">Note: Bundle ends in two weeks from now.</div>
+        </div>
+      </div>
+     <div id = "home">
+        <div id = "home_bar">
+            <img id="icons" src="https://themeforest.pixfort.com/landing/flatpack/1-normal/images/1_normal/1.png" alt="">
+            <div id = "home_text">+1500 High quality video tutorials.</div>
+            </div>
+            <div id = "home_bar">
+                <img id = "icons" src="https://themeforest.pixfort.com/landing/flatpack/1-normal/images/1_normal/2.png" alt="">
+                <div id = "home_text">+40 Days Free trial demo subscribtion.</div>
+            </div>
+            <div id = "home_bar">
+                <img id = "icons" src="https://themeforest.pixfort.com/landing/flatpack/1-normal/images/1_normal/3.png" alt="">
+                <div id = "home_text">+75 New books from store.</div>
+            </div>
+        </div>
+        <div id ="room">
+         <div id = "room1">
+            <div id = "door1">The most amazing thing is here</div>
+            <div id = "door2">Our service is astonishingly thin and light.</div>
+            <div id = "door3">Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua Ut enim ad minim veniam quis nostrud exercitation ullamco laboris nisi ut aliquip ex commodo consequat Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</div>
+         </div>
+         <div id = "room1">
+            <img src="https://themeforest.pixfort.com/landing/flatpack/1-normal/images/1_normal/machine.png" alt="">
+         </div>
+         </div>
+         <div id = "sub_room">
+            <div id = "room2">
+                <img src = "https://themeforest.pixfort.com/landing/flatpack/1-normal/images/1_normal/domains-that-never-sleep.png" alt="">
+                </div>
+                <div id = "room2">
+                    <div id = "door1">Bring it to life again with us</div>
+                    <div id = "door2">Our service is astonishingly thin and light.</div>
+                    <div id = "door3">Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua Ut enim ad minim veniam quis nostrud exercitation ullamco laboris nisi ut aliquip ex commodo consequat Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</div>
+                    </div>
+         </div>
+         <div id = "sub_room2">
+            <div id = "room3">
+                <div id = "door1">Responsive ready wordpress</div>
+                <div id = "door2">Our service is astonishingly thin and light.</div>
+                <div id = "door3">Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua Ut enim ad minim veniam quis nostrud exercitation ullamco laboris nisi ut aliquip ex commodo consequat Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</div>
+            </div>
+            <div id = "room3">
+                <img src="https://themeforest.pixfort.com/landing/flatpack/1-normal/images/1_normal/website-builder.png" alt="">
+            </div>
+         </div>
+         <div id = "sub_room3">
+            <div id = "room4">
+                <div id = "door1">Great people trusted our services</div>
+                <div id = "door2">great words from great people</div>
+             </div>
+             <div id = "room5">
+                <img id = "icon" src="https://themeforest.pixfort.com/landing/flatpack/1-normal/images/1_normal/logo_1.png" alt="">
+                <img id = "icon" src="https://themeforest.pixfort.com/landing/flatpack/1-normal/images/1_normal/logo_2.png" alt="">
+                <img id = "icon" src="https://themeforest.pixfort.com/landing/flatpack/1-normal/images/1_normal/logo_3.png" alt="">
+                <img id = "icon" src ="https://themeforest.pixfort.com/landing/flatpack/1-normal/images/1_normal/logo_4.png" alt="">
+             </div>
+             </div>
+        <div id = "sub_room4">
+            <div id = "room6">
+                <div id="door1">What our awesome clients say</div>
+                <div id = "door2">great words from great people</div>
+            </div>
+            <div id = "room7">
+                <img src="https://themeforest.pixfort.com/landing/flatpack/1-normal/images/testimonials/envato-logo.png" alt="">
+                <div id="door">
+                    <div id = "door1">Im a web designer, you guys are very inspiring I wish to see more work from maybe more freebies.</div>
+                    <div id = "small">
+                        <img src="https://themeforest.pixfort.com/landing/flatpack/1-normal/images/1_normal/stars.original.png" alt="">
+                        <div id ="door2">via Envato.com</div>
+                     </div>
+                </div>
+                <div id = "room8">
+                    <img src="https://themeforest.pixfort.com/landing/flatpack/1-normal/images/testimonials/unboune-logo.png" alt="">
+                    <div id = "mini_door">
+                        <div id = "door1">Great service with fast and relible support The design work and detail put into themes are great.</div>
+                        <div id = "small1">
+                            <img src="https://themeforest.pixfort.com/landing/flatpack/1-normal/images/1_normal/stars.original.png" alt="">
+                            <div id ="door2">via Envato.com</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+       
+        </div>
+    </div>
+</body>
+
+</html>
